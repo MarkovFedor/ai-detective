@@ -1,7 +1,7 @@
 {"claim_id": "C01", "text": "Инцидент произошёл в Nimbus Labs в мае 2026 года", "document_id": "D01", "evidence": "18 мая 2026 года", "status": "direct"}
 {"claim_id": "C02", "text": "Nimbus Labs расположена в Зеленограде", "document_id": "D01", "evidence": "расположена в Зеленограде", "status": "direct"}
 {"claim_id": "C03", "text": "Aurora-7 — нейропроцессор для медицинской робототехники", "document_id": "D01", "evidence": "нейроморфных процессоров для медицинской робототехники", "status": "direct"}
-{"claim_id": "C04", "text": "Сейф требует двух независимых учётных данных — кода Морозова и ключа Крыловой", "document_id": "D01", "evidence": "цифрового кода руководителя проекта Виктора Морозова и", "status": "direct"}
+{"claim_id": "C04", "text": "Сейф требует двух независимых учётных данных — кода Морозова и ключа Крыловой", "document_id": "D01", "evidence": "цифрового кода руководителя проекта Виктора Морозова и физического ключа инженера Анны Крыловой", "status": "direct"}
 {"claim_id": "C05", "text": "Прототип был помещён в сейф в пятницу 15 мая 2026 года в 17:30", "document_id": "D01", "evidence": "в пятницу 15 мая 2026 года в 17:30", "status": "direct"}
 {"claim_id": "C06", "text": "Финальные испытания завершились в 16:00", "document_id": "D02", "evidence": "16:00 — завершены финальные испытания прототипа Aurora-7", "status": "direct"}
 {"claim_id": "C07", "text": "Крылова заперла свою часть замка в 17:30", "document_id": "D02", "evidence": "17:30 — Анна Крылова поместила прототип в сейф и заперла свою часть замка", "status": "direct"}
@@ -13,14 +13,14 @@
 {"claim_id": "C13", "text": "В 02:38 тот же пропуск использован на входе в лабораторный коридор", "document_id": "D07", "evidence": "16.05 02:38:12 ENTRY_LAB_CORRIDOR badge=RAKITIN-S", "status": "direct"}
 {"claim_id": "C14", "text": "Сейф был открыт в 02:45 кодом Морозова и ключом Крыловой", "document_id": "D07", "evidence": "16.05 02:45:09 LAB_SAFE_OPEN user=viktor_morozov part=code key=used status=ok", "status": "direct"}
 {"claim_id": "C15", "text": "Посетитель покинул здание в 02:52 через северный выход", "document_id": "D07", "evidence": "16.05 02:52:28 DOOR_EXIT badge=RAKITIN-S zone=north", "status": "direct"}
-{"claim_id": "C16", "text": "Между 16.05 00:00 и 03:00 в журнале нет операций с пропуском SEMENOV-P или других сотрудников Nimbus Labs, кроме RAKITIN-S", "document_id": "D07", "evidence": "не зафиксировано ни одной операции", "status": "direct"}
-{"claim_id": "C17", "text": "Режим EMERGENCY_OVERRIDE в интервале 15.05 19:00 — 16.05 07:00 не активировался", "document_id": "D07", "evidence": "не активировался", "status": "direct"}
+{"claim_id": "C16", "text": "Между 16.05 00:00 и 03:00 в журнале нет операций с пропуском SEMENOV-P или других сотрудников Nimbus Labs, кроме RAKITIN-S", "document_id": "D07", "evidence": "не зафиксировано ни одной операции с пропуском SEMENOV-P или с пропуском других сотрудников Nimbus Labs, кроме RAKITIN-S", "status": "direct"}
+{"claim_id": "C17", "text": "Режим EMERGENCY_OVERRIDE в интервале 15.05 19:00 — 16.05 07:00 не активировался", "document_id": "D07", "evidence": "Режим EMERGENCY_OVERRIDE в интервале 15.05 19:00 — 16.05 07:00 не активировался", "status": "direct"}
 {"claim_id": "C18", "text": "Пропуск RAKITIN-S принадлежит Сергею Ракитину и действителен до 30.06.2026", "document_id": "D07", "evidence": "Пропуск RAKITIN-S принадлежит внешнему подрядчику Helix Medical Systems", "status": "direct"}
 {"claim_id": "C19", "text": "Доступ подрядчика без сопровождения системой не блокируется", "document_id": "D07", "evidence": "системой не блокируется", "status": "direct"}
 {"claim_id": "C20", "text": "Доступ в здание и лабораторный коридор — по пропуску с PIN-кодом", "document_id": "D08", "evidence": "Пункт 3.1. Доступ в здание и в лабораторный коридор осуществляется по персональному", "status": "direct"}
 {"claim_id": "C21", "text": "Передача пропуска третьим лицам запрещена", "document_id": "D08", "evidence": "Передача пропуска третьим лицам", "status": "direct"}
 {"claim_id": "C22", "text": "Внешние подрядчики допускаются в лабораторный коридор только в сопровождении сотрудника Nimbus Labs", "document_id": "D08", "evidence": "только в сопровождении сотрудника Nimbus Labs", "status": "direct"}
-{"claim_id": "C23", "text": "Охранник обязан делать обходы не реже одного раза в четыре часа", "document_id": "D08", "evidence": "не реже", "status": "direct"}
+{"claim_id": "C23", "text": "Охранник обязан делать обходы не реже одного раза в четыре часа", "document_id": "D08", "evidence": "плановые обходы не реже одного раза в четыре часа", "status": "direct"}
 {"claim_id": "C24", "text": "EMERGENCY_OVERRIDE не даёт доступа к сейфу для критичных образцов", "document_id": "D08", "evidence": "EMERGENCY_OVERRIDE не даёт доступа к сейфу для критичных образцов", "status": "direct"}
 {"claim_id": "C25", "text": "EMERGENCY_OVERRIDE должен быть немедленно зафиксирован в журнале", "document_id": "D08", "evidence": "Активация режима обязательна к немедленной фиксации в системном журнале", "status": "direct"}
 {"claim_id": "C26", "text": "Семёнов утверждает, что делал обход в 02:30 без пропуска", "document_id": "D03", "evidence": "пошёл по коридорам без него", "status": "reported"}
@@ -28,13 +28,11 @@
 {"claim_id": "C28", "text": "Семёнов утверждает, что никого постороннего не видел", "document_id": "D03", "evidence": "никого постороннего в здании не видел", "status": "reported"}
 {"claim_id": "C29", "text": "Крылова утверждает, что ключ от сейфа она положила в личный шкафчик", "document_id": "D04", "evidence": "я положила в свой шкафчик в раздевалке лаборатории", "status": "reported"}
 {"claim_id": "C30", "text": "Крылова утверждает, что не передавала ключ никому", "document_id": "D04", "evidence": "Ключ от сейфа я никому не передавала", "status": "reported"}
-{"claim_id": "C31", "text": "Морозов утверждает, что не передавал свой цифровой код никому", "document_id": "D05", "evidence": "Свой цифровой код я не передавал никому", "status": "reported"}
-{"claim_id": "C32", "text": "Морозов утверждает, что в выходные находился в Москве", "document_id": "D05", "evidence": "В выходные я находился в Москве", "status": "reported"}
 {"claim_id": "C33", "text": "Ракитин утверждает, что в ночь с 15 на 16 мая был дома в Москве", "document_id": "D09", "evidence": "я находился дома в Москве", "status": "reported"}
 {"claim_id": "C34", "text": "Ракитин утверждает, что не передавал пропуск и PIN никому", "document_id": "D09", "evidence": "Я не передавал свой пропуск и PIN-код никому", "status": "reported"}
 {"claim_id": "C35", "text": "В 09:10 Крылова написала в канал #lab-aurora, что чипа в сейфе нет", "document_id": "D06", "evidence": "09:10:22 [anna_krylova]: чипа в сейфе нет", "status": "direct"}
 {"claim_id": "C36", "text": "В 09:13 Морозов написал «код я никому не давал»", "document_id": "D06", "evidence": "09:13:05 [viktor_morozov]: код я никому не давал", "status": "direct"}
 {"claim_id": "C37", "text": "В 09:15 Волная сообщила, что вызвала службу безопасности", "document_id": "D06", "evidence": "09:15:20 [irina_volnaya]: вызвала службу безопасности", "status": "direct"}
-{"claim_id": "C38", "text": "Показания Семёнова о втором обходе не подтверждаются журналом доступа", "document_id": "D07", "evidence": "не зафиксировано ни одной операции", "status": "inferred"}
+{"claim_id": "C38", "text": "Показания Семёнова о втором обходе не подтверждаются журналом доступа", "document_id": "D07", "evidence": "Пропуск SEMENOV-P в указанном интервале зафиксирован только по местоположению в комнате охраны", "status": "inferred"}
 {"claim_id": "C39", "text": "Противоречие: Ракитин утверждает, что был дома, но его пропуск использован в 02:30", "document_id": "D09", "evidence": "находился дома в Москве", "status": "disputed"}
 {"claim_id": "C40", "text": "Сейф был открыт между 02:38 и 02:52 в ночь с 15 на 16 мая", "document_id": "D07", "evidence": "16.05 02:45:09 LAB_SAFE_OPEN", "status": "inferred"}

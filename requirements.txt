@@ -1,0 +1,8 @@
+# участник 2: retrieval + p-adic + контекст
+rank-bm25>=0.2.2
+pymorphy3>=2.0
+pytest>=8.0
+# участник 3 (интерфейс, схемы, метрики) — дополнить клиентом выбранной LLM
+streamlit
+pydantic>=2
+pandas

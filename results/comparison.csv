@@ -1,0 +1,13 @@
+metric,description,A,B,C
+n_questions,"Число вопросов, для которых есть ответ модели",12.0,12.0,12.0
+n_missing_in_run,"Вопросы эталона, которых нет в прогоне",0.0,0.0,0.0
+status_accuracy,Доля верных логических статусов,0.75,0.5833333333333334,0.6666666666666666
+evidence_precision,Точность evidence_ids,0.6503968253968254,0.7180555555555556,0.7341269841269842
+evidence_recall,Полнота evidence_ids,0.9722222222222222,0.8472222222222222,0.75
+evidence_f1,F1 по evidence_ids,0.7388888888888889,0.725,0.6557539682539683
+counterevidence_recall,Полнота counterevidence_ids (только для both),0.5,0.5,0.75
+both_accuracy,Доля верных both среди gold_status = both,0.5,0.5,1.0
+insufficient_accuracy,Доля верных insufficient среди gold_status = insufficient,0.5,1.0,1.0
+confident_on_insufficient_rate,Доля ответов с confidence > 0.7 при gold_status = insufficient,0.5,0.0,0.0
+avg_tokens,Среднее число токенов на вопрос,19150.666666666668,4490.583333333333,4399.166666666667
+avg_time_sec,"Среднее время ответа, сек",40.807750000000006,29.40833333333333,19.55091666666667

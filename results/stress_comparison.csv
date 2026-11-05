@@ -1,0 +1,4 @@
+test,mode,n_questions,status_accuracy_base,status_accuracy_stress,evidence_f1_base,evidence_f1_stress,changed_status,changed_evidence
+contradiction,A,2,1.0,1.0,0.4666666666666667,0.3333333333333333,0,2
+contradiction,B,2,1.0,0.5,0.45,0.375,1,2
+contradiction,C,2,1.0,1.0,0.47619047619047616,0.4166666666666667,0,2
